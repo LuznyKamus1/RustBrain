@@ -21,14 +21,8 @@ fn main() {
             '+' => table[pointer]+=1,
             '-' => table[pointer]-=1,
             '!' => println!("{}", table[pointer].to_string()),
-            //'[' if table[pointer]==0 => x= jump_to_whilend(&file, x),
-            //']' => x=jump_towhilestart(&file, x),
             _ => ()
         }
     }
 
 }
-//fn jump_to_whilend(f: &Vec<char>, mut p: usize) -> usize { while f[p] != ']' {p+=1}return p+1;}
-//fn jump_towhilestart(f: &Vec<char>, mut p: usize) -> usize { if p!=0 {while f[p] != '[' {p-=1}}return p;}
-//
-//TODO: LOOP, PRINT CHARS
