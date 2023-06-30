@@ -11,11 +11,14 @@ RustBrain is BrainFuck like language thats written in rust.
 
 ## Usage
 
-- building *optional*
+- Building *optional*
     0. first make sure to install `rustup/cargo`
     1. clone this repo: `git clone https://github.com/LuznyKamus1/RustBrain.git`
     2. cd into the downloaded repo: `cd RustBrain`
     3. build the project: `cargo build`
+
+- Downloading the binary *optional*
+    0. you can download the binary if you do not want to buid the package yourself but it is not guaranteed to work on every machine
 
 - Running
 
@@ -28,11 +31,11 @@ RustBrain is BrainFuck like language thats written in rust.
     1. `cd path/to/binary`
     2. `./binary /path/to/file.rbrain`
 
-## Features
-
-Syntax:
-	`>` - move pointer by 1
-	`<` - move pointer by -1
-	`+` - add 1 to current position
-	`-` - substract 1 from current position
-	`!` - print value from current position
+## Syntax
+1. `>` - move pointer by 1
+2. `<` - move pointer by -1
+3. `+` - add 1 to current position
+4. `-` - substract 1 from current position
+5. `!` - print value from current position
+6. `[` - jumps to the next `]` if current possition == 0
+5. `]` - jumps to the previous `[` if current possition != 0
