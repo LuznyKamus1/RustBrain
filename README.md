@@ -18,7 +18,7 @@ RustBrain is BrainFuck like language thats written in rust.
     4. build the project: `cargo build`
 
 - Downloading the binary
-    1. you can download the binary if you do not want to buid the package yourself but it is not guaranteed to work on every machine
+    1. you can download the binary from the realeses section in github if you do not want to buid the package yourself but it is not guaranteed to work on every machine
 
 - Running
 
