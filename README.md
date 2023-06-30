@@ -11,14 +11,14 @@ RustBrain is BrainFuck like language thats written in rust.
 
 ## Usage
 
-- Building *optional*
-    0. first make sure to install `rustup/cargo`
-    1. clone this repo: `git clone https://github.com/LuznyKamus1/RustBrain.git`
-    2. cd into the downloaded repo: `cd RustBrain`
-    3. build the project: `cargo build`
+- Building
+    1. first make sure to install `rustup/cargo`
+    2. clone this repo: `git clone https://github.com/LuznyKamus1/RustBrain.git`
+    3. cd into the downloaded repo: `cd RustBrain`
+    4. build the project: `cargo build`
 
-- Downloading the binary *optional*
-    0. you can download the binary if you do not want to buid the package yourself but it is not guaranteed to work on every machine
+- Downloading the binary
+    1. you can download the binary if you do not want to buid the package yourself but it is not guaranteed to work on every machine
 
 - Running
 
